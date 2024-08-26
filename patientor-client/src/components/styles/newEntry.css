@@ -1,0 +1,45 @@
+.btn {
+    background-color: #1565c0;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+}
+.display {
+    display: none;
+}
+
+.form__wrapper {
+    border: 1px;
+    border-color: gray;
+    border-style:solid;
+    padding: 0.5rem;
+}
+
+.form__field {
+    margin: 01rem 0;
+    color: gray;
+}
+
+.form__input {
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: rgb(72, 72, 72);
+    width: 100%;
+    
+}
+
+.btm__padding {
+    height: 10vh;
+}
+
+.cancel-btn {
+    background-color: rgb(252, 69, 69);
+    margin-left: 0.2rem;
+}
+.cancel-btn:hover {
+    background-color: rgb(164, 0, 0);
+    margin-left: 0.2rem;
+}

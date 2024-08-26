@@ -1,0 +1,90 @@
+/* PatientEntries.css */
+
+.patient-entry-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .patient-entry-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .patient-entry-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .patient-entry-item {
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .patient-entry-item:last-child {
+    border-bottom: none;
+  }
+  
+  .patient-entry-date {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patient-entry-description {
+    color: #495057;
+    line-height: 1.6;
+  }
+  
+  .patient-entry-diagnoses-title {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patient-entry-diagnoses-list {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .patient-entry-diagnosis-item {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .patient-entry-diagnosis-code {
+    margin-right: 0.5rem;
+    color: #007bff;
+  }
+  
+  .patient-entry-diagnosis-name {
+    color: #495057;
+  }
+  
+  .patient-entry-specialist {
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .patient-entry-item {
+      padding: 0.75rem;
+    }
+  
+    .patient-entry-diagnosis-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .patient-entry-diagnosis-code {
+      margin-right: 0;
+      margin-bottom: 0.25rem;
+    }
+  }
