@@ -9,5 +9,7 @@ Error handling and user notifications
 
 Main challenge: Implementing robust type checking between frontend and backend.
 Key takeaway: The power of TypeScript in catching errors early and improving code quality.
+
+
 Live demo: 
 ## https://patientor-app-fullstackopen.onrender.com/
