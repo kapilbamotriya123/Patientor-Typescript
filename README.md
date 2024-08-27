@@ -13,3 +13,4 @@ Key takeaway: The power of TypeScript in catching errors early and improving cod
 
 Live demo: 
 ## https://patientor-app-fullstackopen.onrender.com/
+The site is hosted on a free web service, so it may go idle after an hour of inactivity.in that case it might take up to 50 seconds to load, so there's no need for concern.
